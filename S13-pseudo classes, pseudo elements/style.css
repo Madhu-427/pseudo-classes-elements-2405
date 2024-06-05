@@ -1,0 +1,30 @@
+h1 {
+    color:blue;
+    text-align: center;
+}
+
+h1::before {
+   content:"🟡";
+}
+p::first-line{
+    color:darkblue;
+
+}
+h1::after{
+    content:"🥂";
+}
+p::selection{
+    color: aliceblue;
+    background-color: black;
+}
+li{
+    font-size: 1.5em;
+}
+li::marker{
+    content: "💛";
+}
+mark {
+    background-color: red;
+    color: beige;
+    font-size: 2rem;
+}
